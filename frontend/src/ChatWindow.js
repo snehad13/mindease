@@ -15,7 +15,8 @@ export default function ChatWindow({ history, setHistory }) {
     try {
       const mood = await detectMood(input);  // 💡 Step 1: Detect mood
 
-      const res = await axios.post("https://mindease-api.onrender.com/chat", {
+      const res = await axios.post("https://mindease-api-cru7.onrender.com/chat", {
+        
         history: updatedHistory.map(msg => ({
           role: msg.from === "user" ? "user" : "assistant",
           content: msg.text
@@ -36,7 +37,7 @@ export default function ChatWindow({ history, setHistory }) {
 
   const detectMood = async (text) => {
     try {
-      const res = await axios.post("https://mindease-api.onrender.com/detect-mood", { message: text });
+      const res = await axios.post("https://mindease-api-cru7.onrender.com/detect-mood", { message: text });
       return res.data.mood;
     } catch (err) {
       console.error("Mood detection failed", err);
