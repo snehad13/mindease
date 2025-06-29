@@ -27,7 +27,7 @@ def get_chat_response(history, message):
         "model": "mistral-saba-24b",
         "messages": messages,
         "temperature": 0.7,
-        "max_tokens": 300
+        "max_tokens": 500
     }
 
     try:

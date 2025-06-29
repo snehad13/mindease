@@ -44,7 +44,7 @@ function App() {
                 paddingBottom: "2px"
               }}
             >
-              {tab === "chat" ? "🧠 Chat" : tab === "journal" ? "📓 Journal" : "🌈 Recommender"}
+              {tab === "chat" ? "🧠 Chat" : tab === "journal" ? "📓 Journal" : "🎶Tunes"}
             </button>
           ))}
         </div>
