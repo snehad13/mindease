@@ -8,7 +8,8 @@ It detects your mood, chats with empathy, and even tracks how you're feeling ove
 
 ## 🌐 Live Demo
 
-- **Frontend (React + Vercel):** [https://mindease.vercel.app](https://mindease.vercel.app)
+- **Frontend (React + Vercel):** [mindease-ten.vercel.app](https://mindease-ten.vercel.app/)
+- **Backend (Flask + Render):** [mindease-api-cru7.onrender.com](https://mindease-api-cru7.onrender.com/)
 
 ---
 
